@@ -1,0 +1,1509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		970A5A182372D6E900C53021 /* XMLYClassifyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970A5A172372D6E900C53021 /* XMLYClassifyHeaderView.swift */; };
+		970A5A1A2372D6FE00C53021 /* XMLYClassifyFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970A5A192372D6FE00C53021 /* XMLYClassifyFooterView.swift */; };
+		970A5A1C2372D7B500C53021 /* XMLYClassifyViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970A5A1B2372D7B500C53021 /* XMLYClassifyViewCell.swift */; };
+		977B968F237A51FE0068EF9D /* XMLYPlayDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B968E237A51FE0068EF9D /* XMLYPlayDetailViewController.swift */; };
+		977B9691237A52110068EF9D /* XMLYPlayDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B9690237A52110068EF9D /* XMLYPlayDetailViewModel.swift */; };
+		977B9693237A52240068EF9D /* XMLYPlayDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B9692237A52240068EF9D /* XMLYPlayDetailModel.swift */; };
+		977B9695237A53A80068EF9D /* XMLYPlayDetailInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B9694237A53A80068EF9D /* XMLYPlayDetailInfoViewController.swift */; };
+		977B9697237A53C10068EF9D /* XMLYPlayDetailProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B9696237A53C10068EF9D /* XMLYPlayDetailProgramViewController.swift */; };
+		977B9699237A53D30068EF9D /* XMLYPlayDetailLikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B9698237A53D30068EF9D /* XMLYPlayDetailLikeViewController.swift */; };
+		977B969B237A53E30068EF9D /* XMLYPlayDetailCircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B969A237A53E30068EF9D /* XMLYPlayDetailCircleViewController.swift */; };
+		977B96A9237A5DE30068EF9D /* XMLYPlayDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B96A8237A5DE30068EF9D /* XMLYPlayDetailHeaderView.swift */; };
+		977B96AC237A62D30068EF9D /* XMLYPlayDetailAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B96AB237A62D30068EF9D /* XMLYPlayDetailAPI.swift */; };
+		977B96AE237A85390068EF9D /* XMLYPlayDetailInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B96AD237A85390068EF9D /* XMLYPlayDetailInfoCell.swift */; };
+		977B96B0237A85580068EF9D /* XMLYPlayDetailInfoAnchorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B96AF237A85580068EF9D /* XMLYPlayDetailInfoAnchorCell.swift */; };
+		977B96B2237A8BDF0068EF9D /* XMLYPLayDetailProgramCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B96B1237A8BDF0068EF9D /* XMLYPLayDetailProgramCell.swift */; };
+		977B96B4237A8F190068EF9D /* XMLYPlayDetailLikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B96B3237A8F180068EF9D /* XMLYPlayDetailLikeCell.swift */; };
+		977B96B6237A93EA0068EF9D /* XMLYPlayDetailPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B96B5237A93EA0068EF9D /* XMLYPlayDetailPlayerViewController.swift */; };
+		977E0C0B2373B6530014FB9D /* XMLYSubClassifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C0A2373B6530014FB9D /* XMLYSubClassifyViewController.swift */; };
+		977E0C0D2373BD0D0014FB9D /* XMLYSubClassifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C0C2373BD0D0014FB9D /* XMLYSubClassifyModel.swift */; };
+		977E0C0F2373BD240014FB9D /* XMLYSubClassifyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C0E2373BD240014FB9D /* XMLYSubClassifyViewModel.swift */; };
+		977E0C112373BD3C0014FB9D /* XMLYSubClassifyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C102373BD3C0014FB9D /* XMLYSubClassifyAPI.swift */; };
+		977E0C132373BDE80014FB9D /* XMLYSubCLassifyCommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C122373BDE80014FB9D /* XMLYSubCLassifyCommendViewController.swift */; };
+		977E0C152373BDF40014FB9D /* XMLYSubClassifyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C142373BDF40014FB9D /* XMLYSubClassifyListViewController.swift */; };
+		977E0C172373CBB80014FB9D /* XMLYClassifySubVerticalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C162373CBB80014FB9D /* XMLYClassifySubVerticalCell.swift */; };
+		977E0C1D2373E6800014FB9D /* XMLYVIPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C1C2373E6800014FB9D /* XMLYVIPViewModel.swift */; };
+		977E0C1F2373E68F0014FB9D /* XMLYVipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C1E2373E68F0014FB9D /* XMLYVipModel.swift */; };
+		977E0C212373E6B20014FB9D /* XMLYVIPInfoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C202373E6B20014FB9D /* XMLYVIPInfoAPI.swift */; };
+		977E0C232373EA600014FB9D /* XMLYHomeVIPCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C222373EA600014FB9D /* XMLYHomeVIPCell.swift */; };
+		977E0C252373EA720014FB9D /* XMLYHomeVipHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C242373EA720014FB9D /* XMLYHomeVipHeaderView.swift */; };
+		977E0C272373EA800014FB9D /* XMLYHomeVipFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C262373EA800014FB9D /* XMLYHomeVipFooterView.swift */; };
+		977E0C292373EA960014FB9D /* XMLYHomeVipBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C282373EA960014FB9D /* XMLYHomeVipBannerCell.swift */; };
+		977E0C2B2373EAA50014FB9D /* XMLYHomeVipCategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C2A2373EAA50014FB9D /* XMLYHomeVipCategoriesCell.swift */; };
+		977E0C2D2373EAB60014FB9D /* XMLYHomeVipHotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C2C2373EAB60014FB9D /* XMLYHomeVipHotCell.swift */; };
+		977E0C2F2373EAC50014FB9D /* XMLYHomeVipEnjoyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C2E2373EAC50014FB9D /* XMLYHomeVipEnjoyCell.swift */; };
+		977E0C312373EC520014FB9D /* XMLYVipCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C302373EC520014FB9D /* XMLYVipCategoryCell.swift */; };
+		977E0C332373ED4A0014FB9D /* XMLYVipHotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C322373ED4A0014FB9D /* XMLYVipHotCell.swift */; };
+		977E0C352373EDC20014FB9D /* XMLYVipEnjoyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C342373EDC20014FB9D /* XMLYVipEnjoyCell.swift */; };
+		977E0C3B2373F7EC0014FB9D /* XMLYHomeLiveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C3A2373F7EC0014FB9D /* XMLYHomeLiveModel.swift */; };
+		977E0C3D2373F8040014FB9D /* XMLYHomeLiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C3C2373F8040014FB9D /* XMLYHomeLiveViewModel.swift */; };
+		977E0C3F2373F81F0014FB9D /* XMLYHomeLiveAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C3E2373F81F0014FB9D /* XMLYHomeLiveAPI.swift */; };
+		977E0C412373FB040014FB9D /* XMLYHomeLiveHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C402373FB040014FB9D /* XMLYHomeLiveHeaderView.swift */; };
+		977E0C432373FB6D0014FB9D /* XMLYRecommendLiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C422373FB6D0014FB9D /* XMLYRecommendLiveCell.swift */; };
+		977E0C452373FB900014FB9D /* XMLYHomeLiveBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C442373FB900014FB9D /* XMLYHomeLiveBannerCell.swift */; };
+		977E0C472373FD150014FB9D /* XMLYLiveHeaderGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C462373FD150014FB9D /* XMLYLiveHeaderGridCell.swift */; };
+		977E0C492373FD2F0014FB9D /* XMLYHomeLiveRankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C482373FD2F0014FB9D /* XMLYHomeLiveRankCell.swift */; };
+		977E0C4B237400740014FB9D /* XMLYHomeLiveGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C4A237400740014FB9D /* XMLYHomeLiveGridCell.swift */; };
+		977E0C4D237401550014FB9D /* XMLYLiveRankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C4C237401550014FB9D /* XMLYLiveRankCell.swift */; };
+		977E0C53237404A90014FB9D /* XMLYHomeBroadcastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C52237404A90014FB9D /* XMLYHomeBroadcastViewModel.swift */; };
+		977E0C55237404C80014FB9D /* XMLYHomeBroadcastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C54237404C80014FB9D /* XMLYHomeBroadcastModel.swift */; };
+		977E0C57237404F90014FB9D /* XMLYHomeBroadcastAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C56237404F90014FB9D /* XMLYHomeBroadcastAPI.swift */; };
+		977E0C59237409270014FB9D /* XMLYHomeRadiosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C58237409270014FB9D /* XMLYHomeRadiosCell.swift */; };
+		977E0C5B2374096C0014FB9D /* XMLYRadioFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C5A2374096C0014FB9D /* XMLYRadioFooterView.swift */; };
+		977E0C5D2374097B0014FB9D /* XMLYRadioHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C5C2374097B0014FB9D /* XMLYRadioHeaderView.swift */; };
+		977E0C5F237409B20014FB9D /* XMLYRadioCategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C5E237409B20014FB9D /* XMLYRadioCategoriesCell.swift */; };
+		977E0C61237409E70014FB9D /* XMLYRadioSquareResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C60237409E70014FB9D /* XMLYRadioSquareResultsCell.swift */; };
+		977E0C63237409F80014FB9D /* XMLYRadioSquareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C62237409F80014FB9D /* XMLYRadioSquareCell.swift */; };
+		977E0C6623741B060014FB9D /* XMLYListenHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C6523741B060014FB9D /* XMLYListenHeaderView.swift */; };
+		977E0C692374213E0014FB9D /* XMLYListenSubscibeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C682374213E0014FB9D /* XMLYListenSubscibeController.swift */; };
+		977E0C6B237421680014FB9D /* XMLYListenChannelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C6A237421680014FB9D /* XMLYListenChannelController.swift */; };
+		977E0C6D237421760014FB9D /* XMLYListenRecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C6C237421760014FB9D /* XMLYListenRecommendController.swift */; };
+		977E0C6F2374245B0014FB9D /* XMLYListenFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C6E2374245B0014FB9D /* XMLYListenFooter.swift */; };
+		977E0C71237424A10014FB9D /* XMLYListenSubscibeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C70237424A10014FB9D /* XMLYListenSubscibeCell.swift */; };
+		977E0C74237424EF0014FB9D /* XMLYListenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C73237424EF0014FB9D /* XMLYListenModel.swift */; };
+		977E0C76237425240014FB9D /* XMLYListenRecommendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C75237425240014FB9D /* XMLYListenRecommendCell.swift */; };
+		977E0C78237425740014FB9D /* XMLYListenChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C77237425740014FB9D /* XMLYListenChannelCell.swift */; };
+		977E0C7A237425A10014FB9D /* XMLYOneKeyListenLTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C79237425A00014FB9D /* XMLYOneKeyListenLTCell.swift */; };
+		977E0C7D237425D60014FB9D /* ListenSubscibeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C7C237425D60014FB9D /* ListenSubscibeViewModel.swift */; };
+		977E0C7F237426050014FB9D /* XMLYListenRecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C7E237426050014FB9D /* XMLYListenRecommendViewModel.swift */; };
+		977E0C81237426150014FB9D /* XMLYListenChannelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C80237426150014FB9D /* XMLYListenChannelViewModel.swift */; };
+		977E0C84237426700014FB9D /* XMLYListenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C83237426700014FB9D /* XMLYListenAPI.swift */; };
+		977E0C882374272B0014FB9D /* listenMoreChannel.json in Resources */ = {isa = PBXBuildFile; fileRef = 977E0C852374272B0014FB9D /* listenMoreChannel.json */; };
+		977E0C892374272B0014FB9D /* listenSubscibe.json in Resources */ = {isa = PBXBuildFile; fileRef = 977E0C862374272B0014FB9D /* listenSubscibe.json */; };
+		977E0C8A2374272B0014FB9D /* listenRecommend.json in Resources */ = {isa = PBXBuildFile; fileRef = 977E0C872374272B0014FB9D /* listenRecommend.json */; };
+		977E0C8C237428120014FB9D /* XMLYListenFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0C8B237428120014FB9D /* XMLYListenFooterView.swift */; };
+		978D73312371555C00ABAC80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73302371555C00ABAC80 /* AppDelegate.swift */; };
+		978D733A2371555F00ABAC80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978D73392371555F00ABAC80 /* Assets.xcassets */; };
+		978D736E237164BC00ABAC80 /* XMLYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D736D237164BC00ABAC80 /* XMLYBaseViewController.swift */; };
+		978D7376237166A200ABAC80 /* XMLYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D7375237166A200ABAC80 /* XMLYNavigationController.swift */; };
+		978D7378237166C200ABAC80 /* XMLYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D7377237166C200ABAC80 /* XMLYHomeViewController.swift */; };
+		978D737A237166D300ABAC80 /* XMLYListenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D7379237166D300ABAC80 /* XMLYListenViewController.swift */; };
+		978D737C237166DC00ABAC80 /* XMLYPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D737B237166DC00ABAC80 /* XMLYPlayViewController.swift */; };
+		978D737E237166E300ABAC80 /* XMLYFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D737D237166E300ABAC80 /* XMLYFindViewController.swift */; };
+		978D7380237166E900ABAC80 /* XMLYMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D737F237166E900ABAC80 /* XMLYMeViewController.swift */; };
+		978D738323716B1600ABAC80 /* XMLYBaseContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D738223716B1600ABAC80 /* XMLYBaseContentView.swift */; };
+		978D738523716B6900ABAC80 /* XMLYBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D738423716B6900ABAC80 /* XMLYBouncesContentView.swift */; };
+		978D738723716BF900ABAC80 /* XMLYIrregularityBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D738623716BF900ABAC80 /* XMLYIrregularityBasicContentView.swift */; };
+		978D738D237181C900ABAC80 /* XMLYCommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D738C237181C900ABAC80 /* XMLYCommendViewController.swift */; };
+		978D738F237181D300ABAC80 /* XMLYVipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D738E237181D300ABAC80 /* XMLYVipViewController.swift */; };
+		978D7391237181DE00ABAC80 /* XMLYClassifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D7390237181DE00ABAC80 /* XMLYClassifyViewController.swift */; };
+		978D7393237181E800ABAC80 /* XMLYLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D7392237181E800ABAC80 /* XMLYLiveViewController.swift */; };
+		978D73952371828E00ABAC80 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73942371828E00ABAC80 /* Common.swift */; };
+		978D73982371832300ABAC80 /* XMLYBroadcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73972371832300ABAC80 /* XMLYBroadcastViewController.swift */; };
+		978D73A0237260F700ABAC80 /* XMLYCommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D739F237260F700ABAC80 /* XMLYCommendViewModel.swift */; };
+		978D73A32372613500ABAC80 /* XMLYCommendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73A22372613500ABAC80 /* XMLYCommendModel.swift */; };
+		978D73A6237266C100ABAC80 /* URefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73A5237266C100ABAC80 /* URefresh.swift */; };
+		978D73A923726AEF00ABAC80 /* HomeCommendAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73A823726AEF00ABAC80 /* HomeCommendAPI.swift */; };
+		978D73AC2372775200ABAC80 /* XMLYHomeCommendHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73AB2372775200ABAC80 /* XMLYHomeCommendHeaderCell.swift */; };
+		978D73AE23727AF700ABAC80 /* XMLYRecommendGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73AD23727AF700ABAC80 /* XMLYRecommendGridCell.swift */; };
+		978D73B023727B0600ABAC80 /* XMLYRecommendNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73AF23727B0600ABAC80 /* XMLYRecommendNewsCell.swift */; };
+		978D73B22372936000ABAC80 /* XMLYRecommendGuessLikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73B12372936000ABAC80 /* XMLYRecommendGuessLikeCell.swift */; };
+		978D73B4237293A300ABAC80 /* XMLYHotAudiobookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73B3237293A300ABAC80 /* XMLYHotAudiobookCell.swift */; };
+		978D73B6237293E800ABAC80 /* XMLYAdvertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73B5237293E800ABAC80 /* XMLYAdvertCell.swift */; };
+		978D73B82372942400ABAC80 /* XMLYOneKeyListenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73B72372942400ABAC80 /* XMLYOneKeyListenCell.swift */; };
+		978D73BA2372944800ABAC80 /* XMLYHomeRecommendLiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73B92372944800ABAC80 /* XMLYHomeRecommendLiveCell.swift */; };
+		978D73BC2372946600ABAC80 /* XMLYRecommendForYouCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73BB2372946600ABAC80 /* XMLYRecommendForYouCell.swift */; };
+		978D73BE23729F1A00ABAC80 /* XMLYGuessLikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73BD23729F1A00ABAC80 /* XMLYGuessLikeCell.swift */; };
+		978D73C02372ADB800ABAC80 /* XMLYHotAudioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73BF2372ADB700ABAC80 /* XMLYHotAudioCell.swift */; };
+		978D73C22372B0A600ABAC80 /* XMLYOneKeyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73C12372B0A600ABAC80 /* XMLYOneKeyCell.swift */; };
+		978D73C42372B20600ABAC80 /* XMLYLiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73C32372B20600ABAC80 /* XMLYLiveCell.swift */; };
+		978D73C72372B2BA00ABAC80 /* ReplicatorLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73C62372B2BA00ABAC80 /* ReplicatorLayer.swift */; };
+		978D73C92372B39200ABAC80 /* XMLYForYouCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73C82372B39200ABAC80 /* XMLYForYouCell.swift */; };
+		978D73CB2372B8DD00ABAC80 /* XMLYHomeCommendHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73CA2372B8DD00ABAC80 /* XMLYHomeCommendHeaderView.swift */; };
+		978D73CD2372B9D700ABAC80 /* XMLYHomeCommendFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73CC2372B9D700ABAC80 /* XMLYHomeCommendFooterView.swift */; };
+		978D73D32372D05D00ABAC80 /* XMLYClassifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73D22372D05D00ABAC80 /* XMLYClassifyModel.swift */; };
+		978D73D52372D07800ABAC80 /* XMLYClassifyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73D42372D07800ABAC80 /* XMLYClassifyViewModel.swift */; };
+		978D73D72372D09600ABAC80 /* XMLYClassifyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978D73D62372D09500ABAC80 /* XMLYClassifyAPI.swift */; };
+		97B3772B23750B2600CE4ACE /* XMLYMeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3772A23750B2600CE4ACE /* XMLYMeModel.swift */; };
+		97B3772D23750B4700CE4ACE /* XMLYMeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3772C23750B4700CE4ACE /* XMLYMeViewModel.swift */; };
+		97B3772F23750B5D00CE4ACE /* XMLYMeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3772E23750B5D00CE4ACE /* XMLYMeAPI.swift */; };
+		97B3773123750BCD00CE4ACE /* XMLYMineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3773023750BCD00CE4ACE /* XMLYMineHeaderView.swift */; };
+		97B3773323750CF700CE4ACE /* XMLYMineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3773223750CF700CE4ACE /* XMLYMineCell.swift */; };
+		97B3773523750D2B00CE4ACE /* XMLYMineHeaderVipAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3773423750D2B00CE4ACE /* XMLYMineHeaderVipAnimationView.swift */; };
+		97B377372375157200CE4ACE /* XMLYCVLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B377362375157200CE4ACE /* XMLYCVLayerView.swift */; };
+		97B3774A23753BE500CE4ACE /* XMLYFindHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3774923753BE500CE4ACE /* XMLYFindHeaderView.swift */; };
+		97B3774C23753C0700CE4ACE /* XMLYFindModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3774B23753C0700CE4ACE /* XMLYFindModel.swift */; };
+		97B3774E23753C1700CE4ACE /* XMLYFindAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3774D23753C1700CE4ACE /* XMLYFindAPI.swift */; };
+		97B3775023753C2E00CE4ACE /* XMLYFindViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3774F23753C2E00CE4ACE /* XMLYFindViewModel.swift */; };
+		97B3775423753CB700CE4ACE /* FindAttention.json in Resources */ = {isa = PBXBuildFile; fileRef = 97B3775123753CB600CE4ACE /* FindAttention.json */; };
+		97B3775523753CB700CE4ACE /* FindRecommend.json in Resources */ = {isa = PBXBuildFile; fileRef = 97B3775223753CB600CE4ACE /* FindRecommend.json */; };
+		97B3775623753CB700CE4ACE /* FindDud.json in Resources */ = {isa = PBXBuildFile; fileRef = 97B3775323753CB700CE4ACE /* FindDud.json */; };
+		97B3775823753D8200CE4ACE /* XMLYFindHeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3775723753D8200CE4ACE /* XMLYFindHeaderViewCell.swift */; };
+		97B3775C23753E5C00CE4ACE /* XMLYFindRecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3775B23753E5C00CE4ACE /* XMLYFindRecommendController.swift */; };
+		97B3775E23753E7300CE4ACE /* XMLYFindDudController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3775D23753E7300CE4ACE /* XMLYFindDudController.swift */; };
+		97B37760237546A500CE4ACE /* XMLYFindAttentionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3775F237546A500CE4ACE /* XMLYFindAttentionController.swift */; };
+		97B37762237547D000CE4ACE /* XMLYFindAttentionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B37761237547D000CE4ACE /* XMLYFindAttentionCell.swift */; };
+		97B3776423754A5C00CE4ACE /* XMLYFindAttentionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3776323754A5C00CE4ACE /* XMLYFindAttentionViewModel.swift */; };
+		97B3776623754BA300CE4ACE /* XMLYFindImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3776523754BA300CE4ACE /* XMLYFindImageCell.swift */; };
+		97B3776923754C8500CE4ACE /* XMLYCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3776823754C8500CE4ACE /* XMLYCustomLabel.swift */; };
+		97B3776E237550B200CE4ACE /* XMLYFindDucCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3776C237550B200CE4ACE /* XMLYFindDucCell.swift */; };
+		97B3776F237550B200CE4ACE /* XMLYFindDucCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97B3776D237550B200CE4ACE /* XMLYFindDucCell.xib */; };
+		97B377712375517D00CE4ACE /* XMLYFindDucViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B377702375517D00CE4ACE /* XMLYFindDucViewModel.swift */; };
+		97D262FA237BD17B00228597 /* XMLYMeTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D262F9237BD17B00228597 /* XMLYMeTestViewController.swift */; };
+		B8142E3E2C4F3C9A5A223EA8 /* Pods_XMLY_Learn_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562629980F065CDA28F172A7 /* Pods_XMLY_Learn_Swift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		562629980F065CDA28F172A7 /* Pods_XMLY_Learn_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMLY_Learn_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		771EADF31A96B35DC0E02FFF /* Pods-XMLY_Learn_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMLY_Learn_Swift.debug.xcconfig"; path = "Target Support Files/Pods-XMLY_Learn_Swift/Pods-XMLY_Learn_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		970A5A172372D6E900C53021 /* XMLYClassifyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYClassifyHeaderView.swift; sourceTree = "<group>"; };
+		970A5A192372D6FE00C53021 /* XMLYClassifyFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYClassifyFooterView.swift; sourceTree = "<group>"; };
+		970A5A1B2372D7B500C53021 /* XMLYClassifyViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYClassifyViewCell.swift; sourceTree = "<group>"; };
+		977B968E237A51FE0068EF9D /* XMLYPlayDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYPlayDetailViewController.swift; sourceTree = "<group>"; };
+		977B9690237A52110068EF9D /* XMLYPlayDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYPlayDetailViewModel.swift; sourceTree = "<group>"; };
+		977B9692237A52240068EF9D /* XMLYPlayDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYPlayDetailModel.swift; sourceTree = "<group>"; };
+		977B9694237A53A80068EF9D /* XMLYPlayDetailInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYPlayDetailInfoViewController.swift; sourceTree = "<group>"; };
+		977B9696237A53C10068EF9D /* XMLYPlayDetailProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYPlayDetailProgramViewController.swift; sourceTree = "<group>"; };
+		977B9698237A53D30068EF9D /* XMLYPlayDetailLikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYPlayDetailLikeViewController.swift; sourceTree = "<group>"; };
+		977B969A237A53E30068EF9D /* XMLYPlayDetailCircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYPlayDetailCircleViewController.swift; sourceTree = "<group>"; };
+		977B96A8237A5DE30068EF9D /* XMLYPlayDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYPlayDetailHeaderView.swift; sourceTree = "<group>"; };
+		977B96AB237A62D30068EF9D /* XMLYPlayDetailAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYPlayDetailAPI.swift; sourceTree = "<group>"; };
+		977B96AD237A85390068EF9D /* XMLYPlayDetailInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYPlayDetailInfoCell.swift; sourceTree = "<group>"; };
+		977B96AF237A85580068EF9D /* XMLYPlayDetailInfoAnchorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYPlayDetailInfoAnchorCell.swift; sourceTree = "<group>"; };
+		977B96B1237A8BDF0068EF9D /* XMLYPLayDetailProgramCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYPLayDetailProgramCell.swift; sourceTree = "<group>"; };
+		977B96B3237A8F180068EF9D /* XMLYPlayDetailLikeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYPlayDetailLikeCell.swift; sourceTree = "<group>"; };
+		977B96B5237A93EA0068EF9D /* XMLYPlayDetailPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYPlayDetailPlayerViewController.swift; sourceTree = "<group>"; };
+		977E0C0A2373B6530014FB9D /* XMLYSubClassifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYSubClassifyViewController.swift; sourceTree = "<group>"; };
+		977E0C0C2373BD0D0014FB9D /* XMLYSubClassifyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYSubClassifyModel.swift; sourceTree = "<group>"; };
+		977E0C0E2373BD240014FB9D /* XMLYSubClassifyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYSubClassifyViewModel.swift; sourceTree = "<group>"; };
+		977E0C102373BD3C0014FB9D /* XMLYSubClassifyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYSubClassifyAPI.swift; sourceTree = "<group>"; };
+		977E0C122373BDE80014FB9D /* XMLYSubCLassifyCommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYSubCLassifyCommendViewController.swift; sourceTree = "<group>"; };
+		977E0C142373BDF40014FB9D /* XMLYSubClassifyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYSubClassifyListViewController.swift; sourceTree = "<group>"; };
+		977E0C162373CBB80014FB9D /* XMLYClassifySubVerticalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYClassifySubVerticalCell.swift; sourceTree = "<group>"; };
+		977E0C1C2373E6800014FB9D /* XMLYVIPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYVIPViewModel.swift; sourceTree = "<group>"; };
+		977E0C1E2373E68F0014FB9D /* XMLYVipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYVipModel.swift; sourceTree = "<group>"; };
+		977E0C202373E6B20014FB9D /* XMLYVIPInfoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYVIPInfoAPI.swift; sourceTree = "<group>"; };
+		977E0C222373EA600014FB9D /* XMLYHomeVIPCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeVIPCell.swift; sourceTree = "<group>"; };
+		977E0C242373EA720014FB9D /* XMLYHomeVipHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeVipHeaderView.swift; sourceTree = "<group>"; };
+		977E0C262373EA800014FB9D /* XMLYHomeVipFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeVipFooterView.swift; sourceTree = "<group>"; };
+		977E0C282373EA960014FB9D /* XMLYHomeVipBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeVipBannerCell.swift; sourceTree = "<group>"; };
+		977E0C2A2373EAA50014FB9D /* XMLYHomeVipCategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeVipCategoriesCell.swift; sourceTree = "<group>"; };
+		977E0C2C2373EAB60014FB9D /* XMLYHomeVipHotCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeVipHotCell.swift; sourceTree = "<group>"; };
+		977E0C2E2373EAC50014FB9D /* XMLYHomeVipEnjoyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeVipEnjoyCell.swift; sourceTree = "<group>"; };
+		977E0C302373EC520014FB9D /* XMLYVipCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYVipCategoryCell.swift; sourceTree = "<group>"; };
+		977E0C322373ED4A0014FB9D /* XMLYVipHotCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYVipHotCell.swift; sourceTree = "<group>"; };
+		977E0C342373EDC20014FB9D /* XMLYVipEnjoyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYVipEnjoyCell.swift; sourceTree = "<group>"; };
+		977E0C3A2373F7EC0014FB9D /* XMLYHomeLiveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeLiveModel.swift; sourceTree = "<group>"; };
+		977E0C3C2373F8040014FB9D /* XMLYHomeLiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeLiveViewModel.swift; sourceTree = "<group>"; };
+		977E0C3E2373F81F0014FB9D /* XMLYHomeLiveAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeLiveAPI.swift; sourceTree = "<group>"; };
+		977E0C402373FB040014FB9D /* XMLYHomeLiveHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeLiveHeaderView.swift; sourceTree = "<group>"; };
+		977E0C422373FB6D0014FB9D /* XMLYRecommendLiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYRecommendLiveCell.swift; sourceTree = "<group>"; };
+		977E0C442373FB900014FB9D /* XMLYHomeLiveBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeLiveBannerCell.swift; sourceTree = "<group>"; };
+		977E0C462373FD150014FB9D /* XMLYLiveHeaderGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYLiveHeaderGridCell.swift; sourceTree = "<group>"; };
+		977E0C482373FD2F0014FB9D /* XMLYHomeLiveRankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeLiveRankCell.swift; sourceTree = "<group>"; };
+		977E0C4A237400740014FB9D /* XMLYHomeLiveGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeLiveGridCell.swift; sourceTree = "<group>"; };
+		977E0C4C237401550014FB9D /* XMLYLiveRankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYLiveRankCell.swift; sourceTree = "<group>"; };
+		977E0C52237404A90014FB9D /* XMLYHomeBroadcastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeBroadcastViewModel.swift; sourceTree = "<group>"; };
+		977E0C54237404C80014FB9D /* XMLYHomeBroadcastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeBroadcastModel.swift; sourceTree = "<group>"; };
+		977E0C56237404F90014FB9D /* XMLYHomeBroadcastAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeBroadcastAPI.swift; sourceTree = "<group>"; };
+		977E0C58237409270014FB9D /* XMLYHomeRadiosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeRadiosCell.swift; sourceTree = "<group>"; };
+		977E0C5A2374096C0014FB9D /* XMLYRadioFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYRadioFooterView.swift; sourceTree = "<group>"; };
+		977E0C5C2374097B0014FB9D /* XMLYRadioHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYRadioHeaderView.swift; sourceTree = "<group>"; };
+		977E0C5E237409B20014FB9D /* XMLYRadioCategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYRadioCategoriesCell.swift; sourceTree = "<group>"; };
+		977E0C60237409E70014FB9D /* XMLYRadioSquareResultsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYRadioSquareResultsCell.swift; sourceTree = "<group>"; };
+		977E0C62237409F80014FB9D /* XMLYRadioSquareCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYRadioSquareCell.swift; sourceTree = "<group>"; };
+		977E0C6523741B060014FB9D /* XMLYListenHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYListenHeaderView.swift; sourceTree = "<group>"; };
+		977E0C682374213E0014FB9D /* XMLYListenSubscibeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYListenSubscibeController.swift; sourceTree = "<group>"; };
+		977E0C6A237421680014FB9D /* XMLYListenChannelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYListenChannelController.swift; sourceTree = "<group>"; };
+		977E0C6C237421760014FB9D /* XMLYListenRecommendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYListenRecommendController.swift; sourceTree = "<group>"; };
+		977E0C6E2374245B0014FB9D /* XMLYListenFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYListenFooter.swift; sourceTree = "<group>"; };
+		977E0C70237424A10014FB9D /* XMLYListenSubscibeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYListenSubscibeCell.swift; sourceTree = "<group>"; };
+		977E0C73237424EF0014FB9D /* XMLYListenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYListenModel.swift; sourceTree = "<group>"; };
+		977E0C75237425240014FB9D /* XMLYListenRecommendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYListenRecommendCell.swift; sourceTree = "<group>"; };
+		977E0C77237425740014FB9D /* XMLYListenChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYListenChannelCell.swift; sourceTree = "<group>"; };
+		977E0C79237425A00014FB9D /* XMLYOneKeyListenLTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYOneKeyListenLTCell.swift; sourceTree = "<group>"; };
+		977E0C7C237425D60014FB9D /* ListenSubscibeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenSubscibeViewModel.swift; sourceTree = "<group>"; };
+		977E0C7E237426050014FB9D /* XMLYListenRecommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYListenRecommendViewModel.swift; sourceTree = "<group>"; };
+		977E0C80237426150014FB9D /* XMLYListenChannelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYListenChannelViewModel.swift; sourceTree = "<group>"; };
+		977E0C83237426700014FB9D /* XMLYListenAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYListenAPI.swift; sourceTree = "<group>"; };
+		977E0C852374272B0014FB9D /* listenMoreChannel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = listenMoreChannel.json; sourceTree = "<group>"; };
+		977E0C862374272B0014FB9D /* listenSubscibe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = listenSubscibe.json; sourceTree = "<group>"; };
+		977E0C872374272B0014FB9D /* listenRecommend.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = listenRecommend.json; sourceTree = "<group>"; };
+		977E0C8B237428120014FB9D /* XMLYListenFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYListenFooterView.swift; sourceTree = "<group>"; };
+		978D732D2371555C00ABAC80 /* 喜马拉雅Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "喜马拉雅Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		978D73302371555C00ABAC80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		978D73392371555F00ABAC80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		978D733E2371555F00ABAC80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		978D736D237164BC00ABAC80 /* XMLYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYBaseViewController.swift; sourceTree = "<group>"; };
+		978D7375237166A200ABAC80 /* XMLYNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYNavigationController.swift; sourceTree = "<group>"; };
+		978D7377237166C200ABAC80 /* XMLYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeViewController.swift; sourceTree = "<group>"; };
+		978D7379237166D300ABAC80 /* XMLYListenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYListenViewController.swift; sourceTree = "<group>"; };
+		978D737B237166DC00ABAC80 /* XMLYPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYPlayViewController.swift; sourceTree = "<group>"; };
+		978D737D237166E300ABAC80 /* XMLYFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYFindViewController.swift; sourceTree = "<group>"; };
+		978D737F237166E900ABAC80 /* XMLYMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYMeViewController.swift; sourceTree = "<group>"; };
+		978D738223716B1600ABAC80 /* XMLYBaseContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYBaseContentView.swift; sourceTree = "<group>"; };
+		978D738423716B6900ABAC80 /* XMLYBouncesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYBouncesContentView.swift; sourceTree = "<group>"; };
+		978D738623716BF900ABAC80 /* XMLYIrregularityBasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYIrregularityBasicContentView.swift; sourceTree = "<group>"; };
+		978D738C237181C900ABAC80 /* XMLYCommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYCommendViewController.swift; sourceTree = "<group>"; };
+		978D738E237181D300ABAC80 /* XMLYVipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYVipViewController.swift; sourceTree = "<group>"; };
+		978D7390237181DE00ABAC80 /* XMLYClassifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYClassifyViewController.swift; sourceTree = "<group>"; };
+		978D7392237181E800ABAC80 /* XMLYLiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYLiveViewController.swift; sourceTree = "<group>"; };
+		978D73942371828E00ABAC80 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		978D73972371832300ABAC80 /* XMLYBroadcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYBroadcastViewController.swift; sourceTree = "<group>"; };
+		978D739F237260F700ABAC80 /* XMLYCommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYCommendViewModel.swift; sourceTree = "<group>"; };
+		978D73A22372613500ABAC80 /* XMLYCommendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYCommendModel.swift; sourceTree = "<group>"; };
+		978D73A5237266C100ABAC80 /* URefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URefresh.swift; sourceTree = "<group>"; };
+		978D73A823726AEF00ABAC80 /* HomeCommendAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCommendAPI.swift; sourceTree = "<group>"; };
+		978D73AB2372775200ABAC80 /* XMLYHomeCommendHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeCommendHeaderCell.swift; sourceTree = "<group>"; };
+		978D73AD23727AF700ABAC80 /* XMLYRecommendGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYRecommendGridCell.swift; sourceTree = "<group>"; };
+		978D73AF23727B0600ABAC80 /* XMLYRecommendNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYRecommendNewsCell.swift; sourceTree = "<group>"; };
+		978D73B12372936000ABAC80 /* XMLYRecommendGuessLikeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYRecommendGuessLikeCell.swift; sourceTree = "<group>"; };
+		978D73B3237293A300ABAC80 /* XMLYHotAudiobookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHotAudiobookCell.swift; sourceTree = "<group>"; };
+		978D73B5237293E800ABAC80 /* XMLYAdvertCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYAdvertCell.swift; sourceTree = "<group>"; };
+		978D73B72372942400ABAC80 /* XMLYOneKeyListenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYOneKeyListenCell.swift; sourceTree = "<group>"; };
+		978D73B92372944800ABAC80 /* XMLYHomeRecommendLiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeRecommendLiveCell.swift; sourceTree = "<group>"; };
+		978D73BB2372946600ABAC80 /* XMLYRecommendForYouCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYRecommendForYouCell.swift; sourceTree = "<group>"; };
+		978D73BD23729F1A00ABAC80 /* XMLYGuessLikeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYGuessLikeCell.swift; sourceTree = "<group>"; };
+		978D73BF2372ADB700ABAC80 /* XMLYHotAudioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHotAudioCell.swift; sourceTree = "<group>"; };
+		978D73C12372B0A600ABAC80 /* XMLYOneKeyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYOneKeyCell.swift; sourceTree = "<group>"; };
+		978D73C32372B20600ABAC80 /* XMLYLiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYLiveCell.swift; sourceTree = "<group>"; };
+		978D73C62372B2BA00ABAC80 /* ReplicatorLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplicatorLayer.swift; sourceTree = "<group>"; };
+		978D73C82372B39200ABAC80 /* XMLYForYouCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYForYouCell.swift; sourceTree = "<group>"; };
+		978D73CA2372B8DD00ABAC80 /* XMLYHomeCommendHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeCommendHeaderView.swift; sourceTree = "<group>"; };
+		978D73CC2372B9D700ABAC80 /* XMLYHomeCommendFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYHomeCommendFooterView.swift; sourceTree = "<group>"; };
+		978D73D22372D05D00ABAC80 /* XMLYClassifyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYClassifyModel.swift; sourceTree = "<group>"; };
+		978D73D42372D07800ABAC80 /* XMLYClassifyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYClassifyViewModel.swift; sourceTree = "<group>"; };
+		978D73D62372D09500ABAC80 /* XMLYClassifyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYClassifyAPI.swift; sourceTree = "<group>"; };
+		97B3772A23750B2600CE4ACE /* XMLYMeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYMeModel.swift; sourceTree = "<group>"; };
+		97B3772C23750B4700CE4ACE /* XMLYMeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYMeViewModel.swift; sourceTree = "<group>"; };
+		97B3772E23750B5D00CE4ACE /* XMLYMeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYMeAPI.swift; sourceTree = "<group>"; };
+		97B3773023750BCD00CE4ACE /* XMLYMineHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYMineHeaderView.swift; sourceTree = "<group>"; };
+		97B3773223750CF700CE4ACE /* XMLYMineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYMineCell.swift; sourceTree = "<group>"; };
+		97B3773423750D2B00CE4ACE /* XMLYMineHeaderVipAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYMineHeaderVipAnimationView.swift; sourceTree = "<group>"; };
+		97B377362375157200CE4ACE /* XMLYCVLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYCVLayerView.swift; sourceTree = "<group>"; };
+		97B3774923753BE500CE4ACE /* XMLYFindHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYFindHeaderView.swift; sourceTree = "<group>"; };
+		97B3774B23753C0700CE4ACE /* XMLYFindModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYFindModel.swift; sourceTree = "<group>"; };
+		97B3774D23753C1700CE4ACE /* XMLYFindAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYFindAPI.swift; sourceTree = "<group>"; };
+		97B3774F23753C2E00CE4ACE /* XMLYFindViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYFindViewModel.swift; sourceTree = "<group>"; };
+		97B3775123753CB600CE4ACE /* FindAttention.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FindAttention.json; sourceTree = "<group>"; };
+		97B3775223753CB600CE4ACE /* FindRecommend.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FindRecommend.json; sourceTree = "<group>"; };
+		97B3775323753CB700CE4ACE /* FindDud.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FindDud.json; sourceTree = "<group>"; };
+		97B3775723753D8200CE4ACE /* XMLYFindHeaderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYFindHeaderViewCell.swift; sourceTree = "<group>"; };
+		97B3775B23753E5C00CE4ACE /* XMLYFindRecommendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYFindRecommendController.swift; sourceTree = "<group>"; };
+		97B3775D23753E7300CE4ACE /* XMLYFindDudController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYFindDudController.swift; sourceTree = "<group>"; };
+		97B3775F237546A500CE4ACE /* XMLYFindAttentionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYFindAttentionController.swift; sourceTree = "<group>"; };
+		97B37761237547D000CE4ACE /* XMLYFindAttentionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYFindAttentionCell.swift; sourceTree = "<group>"; };
+		97B3776323754A5C00CE4ACE /* XMLYFindAttentionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYFindAttentionViewModel.swift; sourceTree = "<group>"; };
+		97B3776523754BA300CE4ACE /* XMLYFindImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYFindImageCell.swift; sourceTree = "<group>"; };
+		97B3776823754C8500CE4ACE /* XMLYCustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYCustomLabel.swift; sourceTree = "<group>"; };
+		97B3776C237550B200CE4ACE /* XMLYFindDucCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYFindDucCell.swift; sourceTree = "<group>"; };
+		97B3776D237550B200CE4ACE /* XMLYFindDucCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XMLYFindDucCell.xib; sourceTree = "<group>"; };
+		97B377702375517D00CE4ACE /* XMLYFindDucViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYFindDucViewModel.swift; sourceTree = "<group>"; };
+		97D262F9237BD17B00228597 /* XMLYMeTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLYMeTestViewController.swift; sourceTree = "<group>"; };
+		CA74B2A0504E72B55226B4CD /* Pods-XMLY_Learn_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMLY_Learn_Swift.release.xcconfig"; path = "Target Support Files/Pods-XMLY_Learn_Swift/Pods-XMLY_Learn_Swift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		978D732A2371555C00ABAC80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8142E3E2C4F3C9A5A223EA8 /* Pods_XMLY_Learn_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		678AC73A8A574E089016D11C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				562629980F065CDA28F172A7 /* Pods_XMLY_Learn_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		977B9689237A4C3C0068EF9D /* PlayDetail */ = {
+			isa = PBXGroup;
+			children = (
+				977B96AA237A62BE0068EF9D /* API */,
+				977B968D237A4C630068EF9D /* ViewModel */,
+				977B968C237A4C5D0068EF9D /* Model */,
+				977B968B237A4C570068EF9D /* View */,
+				977B968A237A4C460068EF9D /* Controller */,
+			);
+			path = PlayDetail;
+			sourceTree = "<group>";
+		};
+		977B968A237A4C460068EF9D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				977B968E237A51FE0068EF9D /* XMLYPlayDetailViewController.swift */,
+				977B9694237A53A80068EF9D /* XMLYPlayDetailInfoViewController.swift */,
+				977B9696237A53C10068EF9D /* XMLYPlayDetailProgramViewController.swift */,
+				977B9698237A53D30068EF9D /* XMLYPlayDetailLikeViewController.swift */,
+				977B969A237A53E30068EF9D /* XMLYPlayDetailCircleViewController.swift */,
+				977B96B5237A93EA0068EF9D /* XMLYPlayDetailPlayerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		977B968B237A4C570068EF9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				977B96A8237A5DE30068EF9D /* XMLYPlayDetailHeaderView.swift */,
+				977B96AD237A85390068EF9D /* XMLYPlayDetailInfoCell.swift */,
+				977B96B1237A8BDF0068EF9D /* XMLYPLayDetailProgramCell.swift */,
+				977B96AF237A85580068EF9D /* XMLYPlayDetailInfoAnchorCell.swift */,
+				977B96B3237A8F180068EF9D /* XMLYPlayDetailLikeCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		977B968C237A4C5D0068EF9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				977B9692237A52240068EF9D /* XMLYPlayDetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		977B968D237A4C630068EF9D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				977B9690237A52110068EF9D /* XMLYPlayDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		977B96AA237A62BE0068EF9D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				977B96AB237A62D30068EF9D /* XMLYPlayDetailAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		977E0C182373E6430014FB9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C1E2373E68F0014FB9D /* XMLYVipModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		977E0C192373E64A0014FB9D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C1C2373E6800014FB9D /* XMLYVIPViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		977E0C1A2373E6500014FB9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C222373EA600014FB9D /* XMLYHomeVIPCell.swift */,
+				977E0C242373EA720014FB9D /* XMLYHomeVipHeaderView.swift */,
+				977E0C262373EA800014FB9D /* XMLYHomeVipFooterView.swift */,
+				977E0C282373EA960014FB9D /* XMLYHomeVipBannerCell.swift */,
+				977E0C2A2373EAA50014FB9D /* XMLYHomeVipCategoriesCell.swift */,
+				977E0C302373EC520014FB9D /* XMLYVipCategoryCell.swift */,
+				977E0C2C2373EAB60014FB9D /* XMLYHomeVipHotCell.swift */,
+				977E0C2E2373EAC50014FB9D /* XMLYHomeVipEnjoyCell.swift */,
+				977E0C322373ED4A0014FB9D /* XMLYVipHotCell.swift */,
+				977E0C342373EDC20014FB9D /* XMLYVipEnjoyCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		977E0C1B2373E6580014FB9D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C202373E6B20014FB9D /* XMLYVIPInfoAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		977E0C362373F7AA0014FB9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C3A2373F7EC0014FB9D /* XMLYHomeLiveModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		977E0C372373F7B00014FB9D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C3C2373F8040014FB9D /* XMLYHomeLiveViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		977E0C382373F7B70014FB9D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C3E2373F81F0014FB9D /* XMLYHomeLiveAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		977E0C392373F7C80014FB9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C402373FB040014FB9D /* XMLYHomeLiveHeaderView.swift */,
+				977E0C422373FB6D0014FB9D /* XMLYRecommendLiveCell.swift */,
+				977E0C442373FB900014FB9D /* XMLYHomeLiveBannerCell.swift */,
+				977E0C482373FD2F0014FB9D /* XMLYHomeLiveRankCell.swift */,
+				977E0C4C237401550014FB9D /* XMLYLiveRankCell.swift */,
+				977E0C462373FD150014FB9D /* XMLYLiveHeaderGridCell.swift */,
+				977E0C4A237400740014FB9D /* XMLYHomeLiveGridCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		977E0C4E2374046C0014FB9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C54237404C80014FB9D /* XMLYHomeBroadcastModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		977E0C4F237404730014FB9D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C52237404A90014FB9D /* XMLYHomeBroadcastViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		977E0C502374047C0014FB9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C58237409270014FB9D /* XMLYHomeRadiosCell.swift */,
+				977E0C5A2374096C0014FB9D /* XMLYRadioFooterView.swift */,
+				977E0C5C2374097B0014FB9D /* XMLYRadioHeaderView.swift */,
+				977E0C5E237409B20014FB9D /* XMLYRadioCategoriesCell.swift */,
+				977E0C60237409E70014FB9D /* XMLYRadioSquareResultsCell.swift */,
+				977E0C62237409F80014FB9D /* XMLYRadioSquareCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		977E0C51237404860014FB9D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C56237404F90014FB9D /* XMLYHomeBroadcastAPI.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		977E0C6423741AF60014FB9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C6523741B060014FB9D /* XMLYListenHeaderView.swift */,
+				977E0C6E2374245B0014FB9D /* XMLYListenFooter.swift */,
+				977E0C70237424A10014FB9D /* XMLYListenSubscibeCell.swift */,
+				977E0C75237425240014FB9D /* XMLYListenRecommendCell.swift */,
+				977E0C77237425740014FB9D /* XMLYListenChannelCell.swift */,
+				977E0C79237425A00014FB9D /* XMLYOneKeyListenLTCell.swift */,
+				977E0C8B237428120014FB9D /* XMLYListenFooterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		977E0C67237421260014FB9D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				978D7379237166D300ABAC80 /* XMLYListenViewController.swift */,
+				977E0C682374213E0014FB9D /* XMLYListenSubscibeController.swift */,
+				977E0C6A237421680014FB9D /* XMLYListenChannelController.swift */,
+				977E0C6C237421760014FB9D /* XMLYListenRecommendController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		977E0C72237424DF0014FB9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C73237424EF0014FB9D /* XMLYListenModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		977E0C7B237425BA0014FB9D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C7C237425D60014FB9D /* ListenSubscibeViewModel.swift */,
+				977E0C7E237426050014FB9D /* XMLYListenRecommendViewModel.swift */,
+				977E0C80237426150014FB9D /* XMLYListenChannelViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		977E0C822374265F0014FB9D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C852374272B0014FB9D /* listenMoreChannel.json */,
+				977E0C872374272B0014FB9D /* listenRecommend.json */,
+				977E0C862374272B0014FB9D /* listenSubscibe.json */,
+				977E0C83237426700014FB9D /* XMLYListenAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		978CC8BB23790583005ACF69 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		978D73242371555C00ABAC80 = {
+			isa = PBXGroup;
+			children = (
+				978D732F2371555C00ABAC80 /* XMLY_Learn_Swift */,
+				978D732E2371555C00ABAC80 /* Products */,
+				F492832F3FBAA6A802119C87 /* Pods */,
+				678AC73A8A574E089016D11C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		978D732E2371555C00ABAC80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				978D732D2371555C00ABAC80 /* 喜马拉雅Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		978D732F2371555C00ABAC80 /* XMLY_Learn_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				978D73642371646F00ABAC80 /* Base */,
+				978D73662371647000ABAC80 /* Common */,
+				978D73682371647000ABAC80 /* Engine */,
+				978D73672371647000ABAC80 /* Libs */,
+				978D73652371646F00ABAC80 /* Module */,
+				978D73302371555C00ABAC80 /* AppDelegate.swift */,
+				978D73392371555F00ABAC80 /* Assets.xcassets */,
+				978D733E2371555F00ABAC80 /* Info.plist */,
+			);
+			path = XMLY_Learn_Swift;
+			sourceTree = "<group>";
+		};
+		978D73642371646F00ABAC80 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				978D736C237164A000ABAC80 /* Other */,
+				978D736B2371649900ABAC80 /* View */,
+				978D736A2371649300ABAC80 /* Model */,
+				978D73692371648400ABAC80 /* Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		978D73652371646F00ABAC80 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				978CC8BB23790583005ACF69 /* Player */,
+				978D738123716ADB00ABAC80 /* Main */,
+				978D73742371667500ABAC80 /* Me */,
+				978D7373237165F200ABAC80 /* Find */,
+				978D7372237165EA00ABAC80 /* Play */,
+				978D7371237165A600ABAC80 /* Listen */,
+				978D7370237164E900ABAC80 /* Home */,
+				978D736F237164DD00ABAC80 /* TabBar */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		978D73662371647000ABAC80 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				978D73942371828E00ABAC80 /* Common.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		978D73672371647000ABAC80 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				97B3776723754C7700CE4ACE /* CustomLabel */,
+				978D73C52372B2BA00ABAC80 /* ReplicatorLayer */,
+				978D73A4237266C100ABAC80 /* Refresh */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		978D73682371647000ABAC80 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		978D73692371648400ABAC80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				978D736D237164BC00ABAC80 /* XMLYBaseViewController.swift */,
+				978D7375237166A200ABAC80 /* XMLYNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		978D736A2371649300ABAC80 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		978D736B2371649900ABAC80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		978D736C237164A000ABAC80 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		978D736F237164DD00ABAC80 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		978D7370237164E900ABAC80 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				978D7377237166C200ABAC80 /* XMLYHomeViewController.swift */,
+				978D73962371831600ABAC80 /* Broadcast */,
+				978D738B237181A300ABAC80 /* Live */,
+				978D738A2371819400ABAC80 /* Classify */,
+				978D73892371818500ABAC80 /* Vip */,
+				978D73882371817800ABAC80 /* Commend */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		978D7371237165A600ABAC80 /* Listen */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C822374265F0014FB9D /* API */,
+				977E0C7B237425BA0014FB9D /* ViewModel */,
+				977E0C72237424DF0014FB9D /* Model */,
+				977E0C6423741AF60014FB9D /* View */,
+				977E0C67237421260014FB9D /* Controller */,
+			);
+			path = Listen;
+			sourceTree = "<group>";
+		};
+		978D7372237165EA00ABAC80 /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				977B9689237A4C3C0068EF9D /* PlayDetail */,
+				978D737B237166DC00ABAC80 /* XMLYPlayViewController.swift */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		978D7373237165F200ABAC80 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				97B3774823751A8100CE4ACE /* View */,
+				97B3774723751A7B00CE4ACE /* API */,
+				97B3774623751A7400CE4ACE /* Model */,
+				97B3774523751A6A00CE4ACE /* Controller */,
+				97B3774423751A5F00CE4ACE /* ViewModel */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		978D73742371667500ABAC80 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				97B3772923750B0600CE4ACE /* API */,
+				97B3772823750AFF00CE4ACE /* Model */,
+				97B3772723750AF600CE4ACE /* ViewModel */,
+				97B3772623750AEF00CE4ACE /* View */,
+				97B3772523750AE300CE4ACE /* Controller */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		978D738123716ADB00ABAC80 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				978D738223716B1600ABAC80 /* XMLYBaseContentView.swift */,
+				978D738423716B6900ABAC80 /* XMLYBouncesContentView.swift */,
+				978D738623716BF900ABAC80 /* XMLYIrregularityBasicContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		978D73882371817800ABAC80 /* Commend */ = {
+			isa = PBXGroup;
+			children = (
+				978D73AA237276FE00ABAC80 /* View */,
+				978D73A723726AD600ABAC80 /* API */,
+				978D73A12372611600ABAC80 /* Model */,
+				978D739E237260D800ABAC80 /* ViewModel */,
+				978D739D237183E300ABAC80 /* Controller */,
+			);
+			path = Commend;
+			sourceTree = "<group>";
+		};
+		978D73892371818500ABAC80 /* Vip */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C1B2373E6580014FB9D /* API */,
+				978D739C237183DB00ABAC80 /* Controller */,
+				977E0C182373E6430014FB9D /* Model */,
+				977E0C1A2373E6500014FB9D /* View */,
+				977E0C192373E64A0014FB9D /* ViewModel */,
+			);
+			path = Vip;
+			sourceTree = "<group>";
+		};
+		978D738A2371819400ABAC80 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				978D73D12372D04400ABAC80 /* API */,
+				978D73D02372D03D00ABAC80 /* View */,
+				978D73CF2372D03600ABAC80 /* ViewModel */,
+				978D73CE2372D02C00ABAC80 /* Model */,
+				978D739B237183D200ABAC80 /* Controller */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		978D738B237181A300ABAC80 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C392373F7C80014FB9D /* View */,
+				977E0C382373F7B70014FB9D /* API */,
+				977E0C372373F7B00014FB9D /* ViewModel */,
+				977E0C362373F7AA0014FB9D /* Model */,
+				978D739A237183C900ABAC80 /* Controller */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		978D73962371831600ABAC80 /* Broadcast */ = {
+			isa = PBXGroup;
+			children = (
+				977E0C51237404860014FB9D /* API */,
+				977E0C502374047C0014FB9D /* View */,
+				977E0C4F237404730014FB9D /* ViewModel */,
+				977E0C4E2374046C0014FB9D /* Model */,
+				978D7399237183BF00ABAC80 /* Controller */,
+			);
+			name = Broadcast;
+			sourceTree = "<group>";
+		};
+		978D7399237183BF00ABAC80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				978D73972371832300ABAC80 /* XMLYBroadcastViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		978D739A237183C900ABAC80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				978D7392237181E800ABAC80 /* XMLYLiveViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		978D739B237183D200ABAC80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				978D7390237181DE00ABAC80 /* XMLYClassifyViewController.swift */,
+				977E0C0A2373B6530014FB9D /* XMLYSubClassifyViewController.swift */,
+				977E0C142373BDF40014FB9D /* XMLYSubClassifyListViewController.swift */,
+				977E0C122373BDE80014FB9D /* XMLYSubCLassifyCommendViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		978D739C237183DB00ABAC80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				978D738E237181D300ABAC80 /* XMLYVipViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		978D739D237183E300ABAC80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				978D738C237181C900ABAC80 /* XMLYCommendViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		978D739E237260D800ABAC80 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				978D739F237260F700ABAC80 /* XMLYCommendViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		978D73A12372611600ABAC80 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				978D73A22372613500ABAC80 /* XMLYCommendModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		978D73A4237266C100ABAC80 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				978D73A5237266C100ABAC80 /* URefresh.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		978D73A723726AD600ABAC80 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				978D73A823726AEF00ABAC80 /* HomeCommendAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		978D73AA237276FE00ABAC80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				978D73AB2372775200ABAC80 /* XMLYHomeCommendHeaderCell.swift */,
+				978D73AD23727AF700ABAC80 /* XMLYRecommendGridCell.swift */,
+				978D73AF23727B0600ABAC80 /* XMLYRecommendNewsCell.swift */,
+				978D73B12372936000ABAC80 /* XMLYRecommendGuessLikeCell.swift */,
+				978D73B3237293A300ABAC80 /* XMLYHotAudiobookCell.swift */,
+				978D73BF2372ADB700ABAC80 /* XMLYHotAudioCell.swift */,
+				978D73B5237293E800ABAC80 /* XMLYAdvertCell.swift */,
+				978D73B72372942400ABAC80 /* XMLYOneKeyListenCell.swift */,
+				978D73C12372B0A600ABAC80 /* XMLYOneKeyCell.swift */,
+				978D73B92372944800ABAC80 /* XMLYHomeRecommendLiveCell.swift */,
+				978D73C32372B20600ABAC80 /* XMLYLiveCell.swift */,
+				978D73BB2372946600ABAC80 /* XMLYRecommendForYouCell.swift */,
+				978D73C82372B39200ABAC80 /* XMLYForYouCell.swift */,
+				978D73BD23729F1A00ABAC80 /* XMLYGuessLikeCell.swift */,
+				978D73CA2372B8DD00ABAC80 /* XMLYHomeCommendHeaderView.swift */,
+				978D73CC2372B9D700ABAC80 /* XMLYHomeCommendFooterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		978D73C52372B2BA00ABAC80 /* ReplicatorLayer */ = {
+			isa = PBXGroup;
+			children = (
+				978D73C62372B2BA00ABAC80 /* ReplicatorLayer.swift */,
+			);
+			path = ReplicatorLayer;
+			sourceTree = "<group>";
+		};
+		978D73CE2372D02C00ABAC80 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				978D73D22372D05D00ABAC80 /* XMLYClassifyModel.swift */,
+				977E0C0C2373BD0D0014FB9D /* XMLYSubClassifyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		978D73CF2372D03600ABAC80 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				978D73D42372D07800ABAC80 /* XMLYClassifyViewModel.swift */,
+				977E0C0E2373BD240014FB9D /* XMLYSubClassifyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		978D73D02372D03D00ABAC80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				970A5A172372D6E900C53021 /* XMLYClassifyHeaderView.swift */,
+				970A5A192372D6FE00C53021 /* XMLYClassifyFooterView.swift */,
+				970A5A1B2372D7B500C53021 /* XMLYClassifyViewCell.swift */,
+				977E0C162373CBB80014FB9D /* XMLYClassifySubVerticalCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		978D73D12372D04400ABAC80 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				978D73D62372D09500ABAC80 /* XMLYClassifyAPI.swift */,
+				977E0C102373BD3C0014FB9D /* XMLYSubClassifyAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		97B3772523750AE300CE4ACE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				978D737F237166E900ABAC80 /* XMLYMeViewController.swift */,
+				97D262F9237BD17B00228597 /* XMLYMeTestViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		97B3772623750AEF00CE4ACE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97B3773023750BCD00CE4ACE /* XMLYMineHeaderView.swift */,
+				97B3773223750CF700CE4ACE /* XMLYMineCell.swift */,
+				97B3773423750D2B00CE4ACE /* XMLYMineHeaderVipAnimationView.swift */,
+				97B377362375157200CE4ACE /* XMLYCVLayerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		97B3772723750AF600CE4ACE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				97B3772C23750B4700CE4ACE /* XMLYMeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		97B3772823750AFF00CE4ACE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				97B3772A23750B2600CE4ACE /* XMLYMeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		97B3772923750B0600CE4ACE /* API */ = {
+			isa = PBXGroup;
+			children = (
+				97B3772E23750B5D00CE4ACE /* XMLYMeAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		97B3774423751A5F00CE4ACE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				97B3774F23753C2E00CE4ACE /* XMLYFindViewModel.swift */,
+				97B3776323754A5C00CE4ACE /* XMLYFindAttentionViewModel.swift */,
+				97B377702375517D00CE4ACE /* XMLYFindDucViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		97B3774523751A6A00CE4ACE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				978D737D237166E300ABAC80 /* XMLYFindViewController.swift */,
+				97B3775B23753E5C00CE4ACE /* XMLYFindRecommendController.swift */,
+				97B3775F237546A500CE4ACE /* XMLYFindAttentionController.swift */,
+				97B3775D23753E7300CE4ACE /* XMLYFindDudController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		97B3774623751A7400CE4ACE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				97B3774B23753C0700CE4ACE /* XMLYFindModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		97B3774723751A7B00CE4ACE /* API */ = {
+			isa = PBXGroup;
+			children = (
+				97B3775123753CB600CE4ACE /* FindAttention.json */,
+				97B3775323753CB700CE4ACE /* FindDud.json */,
+				97B3775223753CB600CE4ACE /* FindRecommend.json */,
+				97B3774D23753C1700CE4ACE /* XMLYFindAPI.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		97B3774823751A8100CE4ACE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97B3774923753BE500CE4ACE /* XMLYFindHeaderView.swift */,
+				97B3775723753D8200CE4ACE /* XMLYFindHeaderViewCell.swift */,
+				97B37761237547D000CE4ACE /* XMLYFindAttentionCell.swift */,
+				97B3776523754BA300CE4ACE /* XMLYFindImageCell.swift */,
+				97B3776C237550B200CE4ACE /* XMLYFindDucCell.swift */,
+				97B3776D237550B200CE4ACE /* XMLYFindDucCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		97B3776723754C7700CE4ACE /* CustomLabel */ = {
+			isa = PBXGroup;
+			children = (
+				97B3776823754C8500CE4ACE /* XMLYCustomLabel.swift */,
+			);
+			path = CustomLabel;
+			sourceTree = "<group>";
+		};
+		F492832F3FBAA6A802119C87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				771EADF31A96B35DC0E02FFF /* Pods-XMLY_Learn_Swift.debug.xcconfig */,
+				CA74B2A0504E72B55226B4CD /* Pods-XMLY_Learn_Swift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		978D732C2371555C00ABAC80 /* XMLY_Learn_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 978D73412371555F00ABAC80 /* Build configuration list for PBXNativeTarget "XMLY_Learn_Swift" */;
+			buildPhases = (
+				BC0DA4A2A1F745585190948F /* [CP] Check Pods Manifest.lock */,
+				978D73292371555C00ABAC80 /* Sources */,
+				978D732A2371555C00ABAC80 /* Frameworks */,
+				978D732B2371555C00ABAC80 /* Resources */,
+				53B4D6C325869718C71CCA42 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMLY_Learn_Swift;
+			productName = XMLY_Learn_Swift;
+			productReference = 978D732D2371555C00ABAC80 /* 喜马拉雅Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		978D73252371555C00ABAC80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XMLY;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = XMLY;
+				TargetAttributes = {
+					978D732C2371555C00ABAC80 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 978D73282371555C00ABAC80 /* Build configuration list for PBXProject "XMLY_Learn_Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 978D73242371555C00ABAC80;
+			productRefGroup = 978D732E2371555C00ABAC80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				978D732C2371555C00ABAC80 /* XMLY_Learn_Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		978D732B2371555C00ABAC80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977E0C892374272B0014FB9D /* listenSubscibe.json in Resources */,
+				97B3775523753CB700CE4ACE /* FindRecommend.json in Resources */,
+				977E0C8A2374272B0014FB9D /* listenRecommend.json in Resources */,
+				97B3776F237550B200CE4ACE /* XMLYFindDucCell.xib in Resources */,
+				97B3775623753CB700CE4ACE /* FindDud.json in Resources */,
+				978D733A2371555F00ABAC80 /* Assets.xcassets in Resources */,
+				977E0C882374272B0014FB9D /* listenMoreChannel.json in Resources */,
+				97B3775423753CB700CE4ACE /* FindAttention.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53B4D6C325869718C71CCA42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XMLY_Learn_Swift/Pods-XMLY_Learn_Swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XMLY_Learn_Swift/Pods-XMLY_Learn_Swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XMLY_Learn_Swift/Pods-XMLY_Learn_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC0DA4A2A1F745585190948F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XMLY_Learn_Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		978D73292371555C00ABAC80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D262FA237BD17B00228597 /* XMLYMeTestViewController.swift in Sources */,
+				977E0C59237409270014FB9D /* XMLYHomeRadiosCell.swift in Sources */,
+				977E0C212373E6B20014FB9D /* XMLYVIPInfoAPI.swift in Sources */,
+				97B3772B23750B2600CE4ACE /* XMLYMeModel.swift in Sources */,
+				978D73A32372613500ABAC80 /* XMLYCommendModel.swift in Sources */,
+				977E0C76237425240014FB9D /* XMLYListenRecommendCell.swift in Sources */,
+				978D73952371828E00ABAC80 /* Common.swift in Sources */,
+				97B3775023753C2E00CE4ACE /* XMLYFindViewModel.swift in Sources */,
+				978D73982371832300ABAC80 /* XMLYBroadcastViewController.swift in Sources */,
+				978D73B4237293A300ABAC80 /* XMLYHotAudiobookCell.swift in Sources */,
+				978D73BC2372946600ABAC80 /* XMLYRecommendForYouCell.swift in Sources */,
+				970A5A182372D6E900C53021 /* XMLYClassifyHeaderView.swift in Sources */,
+				978D73AE23727AF700ABAC80 /* XMLYRecommendGridCell.swift in Sources */,
+				977B9693237A52240068EF9D /* XMLYPlayDetailModel.swift in Sources */,
+				97B37760237546A500CE4ACE /* XMLYFindAttentionController.swift in Sources */,
+				97B3775823753D8200CE4ACE /* XMLYFindHeaderViewCell.swift in Sources */,
+				977E0C0B2373B6530014FB9D /* XMLYSubClassifyViewController.swift in Sources */,
+				977E0C3F2373F81F0014FB9D /* XMLYHomeLiveAPI.swift in Sources */,
+				978D7380237166E900ABAC80 /* XMLYMeViewController.swift in Sources */,
+				978D73BA2372944800ABAC80 /* XMLYHomeRecommendLiveCell.swift in Sources */,
+				978D737C237166DC00ABAC80 /* XMLYPlayViewController.swift in Sources */,
+				977E0C61237409E70014FB9D /* XMLYRadioSquareResultsCell.swift in Sources */,
+				97B377712375517D00CE4ACE /* XMLYFindDucViewModel.swift in Sources */,
+				977E0C7A237425A10014FB9D /* XMLYOneKeyListenLTCell.swift in Sources */,
+				97B3773123750BCD00CE4ACE /* XMLYMineHeaderView.swift in Sources */,
+				977E0C4D237401550014FB9D /* XMLYLiveRankCell.swift in Sources */,
+				978D738523716B6900ABAC80 /* XMLYBouncesContentView.swift in Sources */,
+				977E0C412373FB040014FB9D /* XMLYHomeLiveHeaderView.swift in Sources */,
+				978D73BE23729F1A00ABAC80 /* XMLYGuessLikeCell.swift in Sources */,
+				977B9691237A52110068EF9D /* XMLYPlayDetailViewModel.swift in Sources */,
+				977B969B237A53E30068EF9D /* XMLYPlayDetailCircleViewController.swift in Sources */,
+				970A5A1C2372D7B500C53021 /* XMLYClassifyViewCell.swift in Sources */,
+				977B9697237A53C10068EF9D /* XMLYPlayDetailProgramViewController.swift in Sources */,
+				978D73C22372B0A600ABAC80 /* XMLYOneKeyCell.swift in Sources */,
+				977E0C332373ED4A0014FB9D /* XMLYVipHotCell.swift in Sources */,
+				97B3772F23750B5D00CE4ACE /* XMLYMeAPI.swift in Sources */,
+				977E0C1F2373E68F0014FB9D /* XMLYVipModel.swift in Sources */,
+				977E0C2F2373EAC50014FB9D /* XMLYHomeVipEnjoyCell.swift in Sources */,
+				97B3774E23753C1700CE4ACE /* XMLYFindAPI.swift in Sources */,
+				977E0C272373EA800014FB9D /* XMLYHomeVipFooterView.swift in Sources */,
+				977B96B4237A8F190068EF9D /* XMLYPlayDetailLikeCell.swift in Sources */,
+				977E0C312373EC520014FB9D /* XMLYVipCategoryCell.swift in Sources */,
+				970A5A1A2372D6FE00C53021 /* XMLYClassifyFooterView.swift in Sources */,
+				977E0C5B2374096C0014FB9D /* XMLYRadioFooterView.swift in Sources */,
+				978D73B6237293E800ABAC80 /* XMLYAdvertCell.swift in Sources */,
+				97B3774A23753BE500CE4ACE /* XMLYFindHeaderView.swift in Sources */,
+				977E0C55237404C80014FB9D /* XMLYHomeBroadcastModel.swift in Sources */,
+				977E0C6623741B060014FB9D /* XMLYListenHeaderView.swift in Sources */,
+				978D73C92372B39200ABAC80 /* XMLYForYouCell.swift in Sources */,
+				977E0C7F237426050014FB9D /* XMLYListenRecommendViewModel.swift in Sources */,
+				977E0C452373FB900014FB9D /* XMLYHomeLiveBannerCell.swift in Sources */,
+				977B9695237A53A80068EF9D /* XMLYPlayDetailInfoViewController.swift in Sources */,
+				978D73B023727B0600ABAC80 /* XMLYRecommendNewsCell.swift in Sources */,
+				977E0C252373EA720014FB9D /* XMLYHomeVipHeaderView.swift in Sources */,
+				977E0C8C237428120014FB9D /* XMLYListenFooterView.swift in Sources */,
+				97B3772D23750B4700CE4ACE /* XMLYMeViewModel.swift in Sources */,
+				977E0C5D2374097B0014FB9D /* XMLYRadioHeaderView.swift in Sources */,
+				978D73312371555C00ABAC80 /* AppDelegate.swift in Sources */,
+				97B3773523750D2B00CE4ACE /* XMLYMineHeaderVipAnimationView.swift in Sources */,
+				977E0C2D2373EAB60014FB9D /* XMLYHomeVipHotCell.swift in Sources */,
+				97B3774C23753C0700CE4ACE /* XMLYFindModel.swift in Sources */,
+				977E0C132373BDE80014FB9D /* XMLYSubCLassifyCommendViewController.swift in Sources */,
+				977B96AE237A85390068EF9D /* XMLYPlayDetailInfoCell.swift in Sources */,
+				977E0C78237425740014FB9D /* XMLYListenChannelCell.swift in Sources */,
+				977E0C692374213E0014FB9D /* XMLYListenSubscibeController.swift in Sources */,
+				97B3776623754BA300CE4ACE /* XMLYFindImageCell.swift in Sources */,
+				978D73B22372936000ABAC80 /* XMLYRecommendGuessLikeCell.swift in Sources */,
+				978D7378237166C200ABAC80 /* XMLYHomeViewController.swift in Sources */,
+				977E0C84237426700014FB9D /* XMLYListenAPI.swift in Sources */,
+				97B3776923754C8500CE4ACE /* XMLYCustomLabel.swift in Sources */,
+				977B96B2237A8BDF0068EF9D /* XMLYPLayDetailProgramCell.swift in Sources */,
+				978D73CD2372B9D700ABAC80 /* XMLYHomeCommendFooterView.swift in Sources */,
+				978D73B82372942400ABAC80 /* XMLYOneKeyListenCell.swift in Sources */,
+				977E0C492373FD2F0014FB9D /* XMLYHomeLiveRankCell.swift in Sources */,
+				977B96B6237A93EA0068EF9D /* XMLYPlayDetailPlayerViewController.swift in Sources */,
+				978D738723716BF900ABAC80 /* XMLYIrregularityBasicContentView.swift in Sources */,
+				97B3775C23753E5C00CE4ACE /* XMLYFindRecommendController.swift in Sources */,
+				977E0C232373EA600014FB9D /* XMLYHomeVIPCell.swift in Sources */,
+				977E0C3D2373F8040014FB9D /* XMLYHomeLiveViewModel.swift in Sources */,
+				978D7376237166A200ABAC80 /* XMLYNavigationController.swift in Sources */,
+				977E0C6F2374245B0014FB9D /* XMLYListenFooter.swift in Sources */,
+				978D737E237166E300ABAC80 /* XMLYFindViewController.swift in Sources */,
+				978D73CB2372B8DD00ABAC80 /* XMLYHomeCommendHeaderView.swift in Sources */,
+				978D73C42372B20600ABAC80 /* XMLYLiveCell.swift in Sources */,
+				977E0C1D2373E6800014FB9D /* XMLYVIPViewModel.swift in Sources */,
+				977E0C5F237409B20014FB9D /* XMLYRadioCategoriesCell.swift in Sources */,
+				977B96A9237A5DE30068EF9D /* XMLYPlayDetailHeaderView.swift in Sources */,
+				977E0C292373EA960014FB9D /* XMLYHomeVipBannerCell.swift in Sources */,
+				977E0C53237404A90014FB9D /* XMLYHomeBroadcastViewModel.swift in Sources */,
+				977E0C6D237421760014FB9D /* XMLYListenRecommendController.swift in Sources */,
+				977E0C57237404F90014FB9D /* XMLYHomeBroadcastAPI.swift in Sources */,
+				977E0C71237424A10014FB9D /* XMLYListenSubscibeCell.swift in Sources */,
+				978D73D32372D05D00ABAC80 /* XMLYClassifyModel.swift in Sources */,
+				977B9699237A53D30068EF9D /* XMLYPlayDetailLikeViewController.swift in Sources */,
+				977E0C63237409F80014FB9D /* XMLYRadioSquareCell.swift in Sources */,
+				977E0C472373FD150014FB9D /* XMLYLiveHeaderGridCell.swift in Sources */,
+				977E0C152373BDF40014FB9D /* XMLYSubClassifyListViewController.swift in Sources */,
+				977E0C0D2373BD0D0014FB9D /* XMLYSubClassifyModel.swift in Sources */,
+				97B3776E237550B200CE4ACE /* XMLYFindDucCell.swift in Sources */,
+				977E0C112373BD3C0014FB9D /* XMLYSubClassifyAPI.swift in Sources */,
+				97B3776423754A5C00CE4ACE /* XMLYFindAttentionViewModel.swift in Sources */,
+				97B377372375157200CE4ACE /* XMLYCVLayerView.swift in Sources */,
+				977E0C74237424EF0014FB9D /* XMLYListenModel.swift in Sources */,
+				978D73A0237260F700ABAC80 /* XMLYCommendViewModel.swift in Sources */,
+				978D7391237181DE00ABAC80 /* XMLYClassifyViewController.swift in Sources */,
+				977E0C352373EDC20014FB9D /* XMLYVipEnjoyCell.swift in Sources */,
+				978D73A6237266C100ABAC80 /* URefresh.swift in Sources */,
+				977E0C172373CBB80014FB9D /* XMLYClassifySubVerticalCell.swift in Sources */,
+				97B37762237547D000CE4ACE /* XMLYFindAttentionCell.swift in Sources */,
+				978D73D72372D09600ABAC80 /* XMLYClassifyAPI.swift in Sources */,
+				978D7393237181E800ABAC80 /* XMLYLiveViewController.swift in Sources */,
+				978D73C02372ADB800ABAC80 /* XMLYHotAudioCell.swift in Sources */,
+				978D736E237164BC00ABAC80 /* XMLYBaseViewController.swift in Sources */,
+				977E0C2B2373EAA50014FB9D /* XMLYHomeVipCategoriesCell.swift in Sources */,
+				977E0C432373FB6D0014FB9D /* XMLYRecommendLiveCell.swift in Sources */,
+				97B3773323750CF700CE4ACE /* XMLYMineCell.swift in Sources */,
+				977E0C81237426150014FB9D /* XMLYListenChannelViewModel.swift in Sources */,
+				978D738323716B1600ABAC80 /* XMLYBaseContentView.swift in Sources */,
+				977E0C4B237400740014FB9D /* XMLYHomeLiveGridCell.swift in Sources */,
+				977B968F237A51FE0068EF9D /* XMLYPlayDetailViewController.swift in Sources */,
+				978D73A923726AEF00ABAC80 /* HomeCommendAPI.swift in Sources */,
+				977B96B0237A85580068EF9D /* XMLYPlayDetailInfoAnchorCell.swift in Sources */,
+				978D73D52372D07800ABAC80 /* XMLYClassifyViewModel.swift in Sources */,
+				977E0C3B2373F7EC0014FB9D /* XMLYHomeLiveModel.swift in Sources */,
+				978D738D237181C900ABAC80 /* XMLYCommendViewController.swift in Sources */,
+				97B3775E23753E7300CE4ACE /* XMLYFindDudController.swift in Sources */,
+				977E0C0F2373BD240014FB9D /* XMLYSubClassifyViewModel.swift in Sources */,
+				978D73C72372B2BA00ABAC80 /* ReplicatorLayer.swift in Sources */,
+				977E0C6B237421680014FB9D /* XMLYListenChannelController.swift in Sources */,
+				978D73AC2372775200ABAC80 /* XMLYHomeCommendHeaderCell.swift in Sources */,
+				977E0C7D237425D60014FB9D /* ListenSubscibeViewModel.swift in Sources */,
+				978D738F237181D300ABAC80 /* XMLYVipViewController.swift in Sources */,
+				978D737A237166D300ABAC80 /* XMLYListenViewController.swift in Sources */,
+				977B96AC237A62D30068EF9D /* XMLYPlayDetailAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		978D733F2371555F00ABAC80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		978D73402371555F00ABAC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		978D73422371555F00ABAC80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 771EADF31A96B35DC0E02FFF /* Pods-XMLY_Learn_Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XMLY_Learn_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.XMLY-Learn-Swift";
+				PRODUCT_NAME = "喜马拉雅Swift";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		978D73432371555F00ABAC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA74B2A0504E72B55226B4CD /* Pods-XMLY_Learn_Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XMLY_Learn_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.XMLY-Learn-Swift";
+				PRODUCT_NAME = "喜马拉雅Swift";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		978D73282371555C00ABAC80 /* Build configuration list for PBXProject "XMLY_Learn_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				978D733F2371555F00ABAC80 /* Debug */,
+				978D73402371555F00ABAC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		978D73412371555F00ABAC80 /* Build configuration list for PBXNativeTarget "XMLY_Learn_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				978D73422371555F00ABAC80 /* Debug */,
+				978D73432371555F00ABAC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 978D73252371555C00ABAC80 /* Project object */;
+}
